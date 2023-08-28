@@ -34,11 +34,11 @@
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 
  <!--Native -->
-  <remove-project name="Project-Awaken/android_frameworks_native"/>
+  <remove-project name="android_frameworks_native"/>
   <project path="frameworks/native" name="android_frameworks_native" remote="aether192" revision="triton" clone-depth="1"/>
 
   <!--AV -->
-  <remove-project name="Project-Awaken/android_frameworks_av"/>
+  <remove-project name="android_frameworks_av"/>
   <project path="frameworks/av" name="android_frameworks_av" remote="aether192" revision="triton" clone-depth="1"/> 
   
 </manifest>
