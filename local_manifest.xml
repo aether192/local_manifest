@@ -35,10 +35,10 @@
 
  <!--Native -->
   <remove-project name="Project-Awaken/android_frameworks_native"/>
-  <project path="frameworks/native" name="frameworks/native" remote="aether192" revision="triton" clone-depth="1"/>
+  <project path="frameworks/native" name="android_frameworks_native" remote="aether192" revision="triton" clone-depth="1"/>
 
   <!--AV -->
   <remove-project name="Project-Awaken/android_frameworks_av"/>
-  <project path="frameworks/av" name="frameworks/av" remote="aether192" revision="triton" clone-depth="1"/> 
+  <project path="frameworks/av" name="android_frameworks_av" remote="aether192" revision="triton" clone-depth="1"/> 
   
 </manifest>
