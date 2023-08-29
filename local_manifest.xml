@@ -2,7 +2,6 @@
 <manifest>
 
   <remote name="dev" fetch="https://github.com/mt6768-dev" />
-  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
   <remote name="aether192" fetch="https://github.com/aether192" />
   <remote name="clang" fetch="https://gitlab.com/sanjeevstunner"/>
 
