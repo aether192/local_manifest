@@ -2,8 +2,16 @@
 <manifest>
 
   <remote name="aether192" fetch="https://github.com/aether192" />
-     
+  <remote name="dev" fetch="https://github.com/mt6768-dev" />
+  
   <!-- Device Tree -->
   <project path="device/xiaomi/lancelot" name="lancelotd" remote="aether192" revision="lineage-21"/>
 
+  <!-- Vendor Tree -->
+  <project path="vendor/xiaomi/lancelot" name="proprietary_vendor_xiaomi_lancelot" remote="dev" revision="lineage-21"/>
+  <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common" remote="dev" revision="lineage-21"/>
+
+  <!-- Kernel Tree -->
+  <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768" remote="dev" revision="lineage-21"/>
+  
 </manifest>
