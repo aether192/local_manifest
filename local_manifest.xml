@@ -8,7 +8,7 @@
   <project path="device/xiaomi/lancelot" name="android_device_xiaomi_lancelot" remote="aether192" revision="lineage-20"/>
 
   <!-- Vendor Tree -->
-  <project path="vendor/xiaomi/lancelot" name="proprietary_vendor_xiaomi_lancelot" remote="aether192" revision="lineage-20"/>
+  <project path="vendor/xiaomi/lancelot" name="proprietary_vendor_xiaomi_lancelot" remote="dev" revision="lineage-20"/>
   <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common" remote="aether192" revision="lineage-20"/>
 
   <!-- Kernel Tree -->
